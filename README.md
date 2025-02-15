@@ -5,15 +5,20 @@ Combine DeepSeek with your browser
 ## 如何使用
 
 
-1. 安装油猴
+### 安装油猴
 
 在 Chrome 应用商店搜索 tampermonkey, 点击安装插件
 
-2. 安装脚本
+![](assets/images/install-tampermonkey.png)
+
+### 安装脚本
 
 打开 tampermonkey 插件, 默认窗口就是添加脚本, 将这个脚本 [ppio.js](./PPIO/ppio.js) 的内容粘贴进去添加进去
 
-3. 设置搜索
+![](assets/images/paste-scripts.png)
+
+
+### 设置搜索
 
 打开 Chrome 设置, 搜索 "搜索引擎"
 
@@ -27,10 +32,25 @@ Combine DeepSeek with your browser
 
 网址格式填写 ```https://ppinfra.com/llm?prompt=%s```
 
+![](assets/images/set-search-engine.png)
+
 
 点击保存
 
-4. 快去试试吧! 
+### 快去试试吧! 
+
+在浏览器地址栏输入刚才预设的 @deepseek-r1
+
+![](assets/images/use-ppio.png)
+
+轻敲空格
+
+![](assets/images/search-title.png)
+
+然后输入你想搜索的内容, 就会自动使用 DeepSeek-R1 啦!
+
+![](assets/images/ppio-interface.png)
+
 
 (这里的DeepSeek服务使用的是派欧云的，需要自己注册，当然你也可以使用自己的DeepSeek服务)
 
